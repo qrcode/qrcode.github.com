@@ -26,10 +26,10 @@
                         QrBuild.sms("sms_div", $('#sms-no').val(), $('#sms-content').val());
                         break;
                     case 'phone-number':
-                        QrBuild.phone_number("phone_number_div", $('#phone-content').val());
+                        QrBuild.phone_number("phone-number_div", $('#phone-content').val());
                         break;
                     case 'contact-info':
-                        QrBuild.contact_info("contact_info_div", $('#contact-name').val(), $('#contact-addr').val(), $('#contact-tel').val(), $('#contact-email').val());
+                        QrBuild.contact_info("contact-info_div", $('#contact-name').val(), $('#contact-addr').val(), $('#contact-tel').val(), $('#contact-email').val());
                         break;
                     case 'email':
                         QrBuild.email("email_div", $('#email-to').val(), $('#email-subject').val(), $('#email-content').val());
@@ -107,7 +107,7 @@
 
             <div class="section" id="section-phone-number">
                 <h1>电话号码</h1>
-                <div id='phone_number_div' class="image"></div>
+                <div id='phone-number_div' class="image"></div>
                 <div class="form">
                     <p>
                         <label>电话号码:</label>
@@ -119,7 +119,7 @@
 
             <div class="section" id="section-contact-info">
                 <h1>名片</h1>
-                <div id='contact_info_div' class="image"></div>
+                <div id='contact-info_div' class="image"></div>
                 <div class="form">
                     <p>
                         <label>姓名:</label>
